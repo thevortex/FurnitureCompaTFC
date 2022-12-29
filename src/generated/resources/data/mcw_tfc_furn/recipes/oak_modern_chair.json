@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sl ",
+    "ff ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/oak"
+    },
+    "f": {
+      "item": "tfc:wood/planks/oak_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/oak_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:oak_modern_chair"
+  }
+}

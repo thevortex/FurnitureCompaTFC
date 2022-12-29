@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_wardrobe",
+	"textures": {
+		"1": "tfc:block/wood/stripped_log/kapok",
+		"4": "tfc:block/wood/log/kapok",
+		"particle": "tfc:block/wood/stripped_log/kapok",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

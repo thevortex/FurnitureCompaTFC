@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    " l ",
+    " f "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/palm"
+    },
+    "f": {
+      "item": "tfc:wood/planks/palm_fence"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_palm_stool_chair"
+  }
+}

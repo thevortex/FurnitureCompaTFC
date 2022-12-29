@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/acacia"
+    },
+    "s": {
+      "item": "tfc:wood/planks/acacia_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_acacia_counter"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "mcwfurnitures:block/parent/modern_door_bottom",
+	"textures": {
+		"2": "tfc:block/wood/log/chestnut",
+		"4": "tfc:block/wood/stripped_log/chestnut",
+		"particle": "tfc:block/wood/log/chestnut"
+	}
+}

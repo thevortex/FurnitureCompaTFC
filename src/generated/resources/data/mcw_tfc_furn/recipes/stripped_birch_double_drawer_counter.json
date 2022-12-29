@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcwfurnitures:birch_double_drawer"
+    },
+    "s": {
+      "item": "tfc:wood/planks/birch_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_birch_double_drawer_counter"
+  }
+}

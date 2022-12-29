@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/large_shelf_single",
+	"textures": {
+		"0": "tfc:block/wood/stripped_log/douglas_fir",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

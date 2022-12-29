@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcw_tfc_furn:palm_wardrobe"
+    },
+    "s": {
+      "item": "tfc:wood/planks/palm_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:palm_cupboard_counter"
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/wardrobe",
+	"textures": {
+		"1": "tfc:block/wood/log/maple",
+		"4": "tfc:block/wood/stripped_log/maple",
+		"particle": "minecraft:block/iron_block",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

@@ -1,0 +1,123 @@
+{
+  "multipart": [
+    
+    {
+      "when": { "AND": [  {"facing": "north|south","above": "false","below": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_wardrobe_base","uvlock": true}
+    },
+    {
+      "when": { "AND": [  {"facing": "north|south","above": "true","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_wardrobe_middle","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"facing": "north|south","above": "true","below": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_wardrobe_bottom","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"facing": "north|south","above": "false","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_wardrobe_bottom","uvlock": true, "x": 180}
+    },
+    {
+      "when": { "AND": [  {"facing": "east|west","above": "false","below": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_wardrobe_base","uvlock": true, "y": 90}
+    },
+    {
+      "when": { "AND": [  {"facing": "east|west","above": "true","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_wardrobe_middle","uvlock": true, "y": 90}
+    },
+	{
+      "when": { "AND": [  {"facing": "east|west","above": "true","below": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_wardrobe_bottom","uvlock": true, "y": 90}
+    },
+	{
+      "when": { "AND": [  {"facing": "east|west","above": "false","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_wardrobe_bottom","uvlock": true, "y": 90, "x": 180}
+    },
+  
+    {
+      "when": { "AND": [  {"facing": "north","above": "false","below": "false","hinge": "right"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_base","uvlock": true, "y": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "east","above": "false","below": "false","hinge": "right"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_base","uvlock": true, "y": 270}
+    },
+	{
+      "when": { "AND": [  {"facing": "south","above": "false","below": "false","hinge": "right"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_base","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"facing": "west","above": "false","below": "false","hinge": "right"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_base","uvlock": true, "y": 90}
+    },
+	
+	{
+      "when": { "AND": [  {"facing": "north","above": "false","below": "false","hinge": "left"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_base","uvlock": true, "y": 180, "x":180}
+    },
+	{
+      "when": { "AND": [  {"facing": "east","above": "false","below": "false","hinge": "left"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_base","uvlock": true, "y": 270, "x":180}
+    },
+	{
+      "when": { "AND": [  {"facing": "south","above": "false","below": "false","hinge": "left"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_base","uvlock": true, "x":180}
+    },
+	{
+      "when": { "AND": [  {"facing": "west","above": "false","below": "false","hinge": "left"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_base","uvlock": true, "y": 90, "x":180}
+    },
+	
+	{
+      "when": { "AND": [  {"facing": "north","above": "true","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_middle","uvlock": true, "y": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "east","above": "true","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_middle","uvlock": true, "y": 270}
+    },
+	{
+      "when": { "AND": [  {"facing": "south","above": "true","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_middle","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"facing": "west","above": "true","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_middle","uvlock": true, "y": 90}
+    },
+	
+	{
+      "when": { "AND": [  {"facing": "north","above": "false","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_bottom","uvlock": true, "y": 180, "x": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "east","above": "false","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_bottom","uvlock": true, "y": 270, "x": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "south","above": "false","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_bottom","uvlock": true, "x": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "west","above": "false","below": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_bottom","uvlock": true, "y": 90, "x": 180}
+    },
+	
+	{
+      "when": { "AND": [  {"facing": "north","above": "true","below": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_bottom","uvlock": true, "y": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "east","above": "true","below": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_bottom","uvlock": true, "y": 270}
+    },
+	{
+      "when": { "AND": [  {"facing": "south","above": "true","below": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_bottom","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"facing": "west","above": "true","below": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/wardrobe/stripped_douglas_fir_bookshelf_bottom","uvlock": true, "y": 90}
+    }
+  
+  ]
+}

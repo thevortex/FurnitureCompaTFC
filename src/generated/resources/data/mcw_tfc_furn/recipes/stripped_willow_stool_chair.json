@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    " l ",
+    " f "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/willow"
+    },
+    "f": {
+      "item": "tfc:wood/planks/willow_fence"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_willow_stool_chair"
+  }
+}

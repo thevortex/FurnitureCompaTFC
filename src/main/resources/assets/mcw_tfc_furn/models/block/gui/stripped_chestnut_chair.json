@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/chair",
+	"textures": {
+		"0": "tfc:block/wood/log/chestnut",
+		"3": "tfc:block/wood/stripped_log/chestnut"
+	}
+}

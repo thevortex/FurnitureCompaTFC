@@ -1,0 +1,84 @@
+{
+  "multipart": [
+  
+  
+    {
+      "when": { "AND": [  {"facing": "north|south"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk","uvlock": true}
+    },
+    {
+      "when": { "AND": [  {"facing": "east|west"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk","uvlock": true, "y": 90}
+    },
+	
+	
+	{
+      "when": { "AND": [  {"facing": "north","north": "false","east": "false","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_single","uvlock": true, "y": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "north","north": "true","east": "false","west": "false","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_middle","uvlock": true, "y": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "north","north": "true","east": "false","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_left","uvlock": true, "y": 180}
+    },
+	{
+      "when": { "AND": [  {"facing": "north","north": "false","east": "false","west": "false","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_right","uvlock": true, "y": 180}
+    },
+	
+	{
+      "when": { "AND": [  {"facing": "east","north": "false","east": "false","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_single","uvlock": true, "y": 270}
+    },
+	{
+      "when": { "AND": [  {"facing": "east","north": "false","east": "true","west": "true","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_middle","uvlock": true, "y": 270}
+    },
+	{
+      "when": { "AND": [  {"facing": "east","north": "false","east": "true","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_left","uvlock": true, "y": 270}
+    },
+	{
+      "when": { "AND": [  {"facing": "east","north": "false","east": "false","west": "true","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_right","uvlock": true, "y": 270}
+    },
+	
+	{
+      "when": { "AND": [  {"facing": "south","north": "false","east": "false","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_single","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"facing": "south","north": "true","east": "false","west": "false","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_middle","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"facing": "south","north": "false","east": "false","west": "false","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_left","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"facing": "south","north": "true","east": "false","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_right","uvlock": true}
+    },
+	
+	{
+      "when": { "AND": [  {"facing": "west","north": "false","east": "false","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_single","uvlock": true, "y": 90}
+    },
+	{
+      "when": { "AND": [  {"facing": "west","north": "false","east": "true","west": "true","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_middle","uvlock": true, "y": 90}
+    },
+	{
+      "when": { "AND": [  {"facing": "west","north": "false","east": "false","west": "true","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_left","uvlock": true, "y": 90}
+    },
+	{
+      "when": { "AND": [  {"facing": "west","north": "false","east": "true","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_pine_desk_right","uvlock": true, "y": 90}
+    }
+
+  ]
+}

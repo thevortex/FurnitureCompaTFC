@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcwfurnitures:spruce_double_drawer"
+    },
+    "s": {
+      "item": "tfc:wood/planks/spruce_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_spruce_double_drawer_counter"
+  }
+}

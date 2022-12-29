@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/triple_drawer",
+	"textures": {
+		"0": "tfc:block/wood/stripped_log/willow",
+		"1": "tfc:block/wood/log/willow",
+		"particle": "tfc:block/wood/stripped_log/willow",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

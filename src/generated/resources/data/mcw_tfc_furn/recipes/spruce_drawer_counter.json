@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcwfurnitures:spruce_drawer"
+    },
+    "s": {
+      "item": "tfc:wood/planks/spruce_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:spruce_drawer_counter"
+  }
+}

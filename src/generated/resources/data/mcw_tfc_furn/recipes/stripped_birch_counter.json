@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/birch"
+    },
+    "s": {
+      "item": "tfc:wood/planks/birch_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_birch_counter"
+  }
+}

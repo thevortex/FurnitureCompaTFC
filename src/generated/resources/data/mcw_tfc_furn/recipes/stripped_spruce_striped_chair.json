@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    "sf ",
+    "ff "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/spruce"
+    },
+    "f": {
+      "item": "tfc:wood/planks/spruce_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/spruce_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_spruce_striped_chair"
+  }
+}

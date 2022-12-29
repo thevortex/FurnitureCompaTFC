@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/modern_door_base",
+	"textures": {
+		"2": "tfc:block/wood/stripped_log/chestnut",
+		"4": "tfc:block/wood/log/chestnut",
+		"particle": "tfc:block/wood/stripped_log/chestnut",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

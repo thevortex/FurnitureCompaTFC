@@ -1,0 +1,10 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/bookshelf_drawer",
+	"textures": {
+		"0": "tfc:block/wood/log/hickory",
+		"1": "tfc:block/wood/stripped_log/hickory",
+		"3": "minecraft:block/bookshelf",
+		"particle": "tfc:block/wood/log/hickory",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "mcwfurnitures:birch_table"
+    },
+    "l": {
+      "item": "tfc:wood/stripped_log/birch"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_birch_end_table",
+    "count": 2
+  }
+}

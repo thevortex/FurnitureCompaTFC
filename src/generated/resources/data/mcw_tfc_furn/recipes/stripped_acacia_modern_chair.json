@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sl ",
+    "ff ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/acacia"
+    },
+    "f": {
+      "item": "tfc:wood/planks/acacia_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/acacia_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_acacia_modern_chair"
+  }
+}

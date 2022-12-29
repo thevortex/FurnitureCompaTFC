@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    "sf ",
+    "ff "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/douglas_fir"
+    },
+    "f": {
+      "item": "tfc:wood/planks/douglas_fir_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/douglas_fir_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_douglas_fir_striped_chair"
+  }
+}

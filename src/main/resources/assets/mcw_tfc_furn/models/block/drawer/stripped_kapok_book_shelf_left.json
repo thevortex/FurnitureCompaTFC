@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/parent/book_shelf_left",
+	"textures": {
+		"0": "tfc:block/wood/stripped_log/kapok",
+		"3": "minecraft:block/bookshelf",
+		"particle": "tfc:block/wood/stripped_log/kapok",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

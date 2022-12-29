@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    "sl ",
+    "ff "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/chestnut"
+    },
+    "f": {
+      "item": "tfc:wood/planks/chestnut_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/chestnut_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:chestnut_chair"
+  }
+}

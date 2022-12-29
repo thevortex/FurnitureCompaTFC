@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "mcwfurnitures:oak_table"
+    },
+    "l": {
+      "item": "tfc:wood/log/oak"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:oak_end_table",
+    "count": 2
+  }
+}

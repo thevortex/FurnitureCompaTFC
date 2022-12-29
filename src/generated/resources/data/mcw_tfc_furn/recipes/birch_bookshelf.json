@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "bbb",
+    "lll"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/birch"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:birch_bookshelf",
+    "count": 4
+  }
+}

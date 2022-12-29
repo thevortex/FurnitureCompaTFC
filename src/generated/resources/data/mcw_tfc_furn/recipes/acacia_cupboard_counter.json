@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcwfurnitures:acacia_wardrobe"
+    },
+    "s": {
+      "item": "tfc:wood/planks/acacia_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:acacia_cupboard_counter"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    "sf ",
+    "ff "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/pine"
+    },
+    "f": {
+      "item": "tfc:wood/planks/pine_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/pine_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:pine_striped_chair"
+  }
+}

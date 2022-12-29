@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "ldl",
+    "ldl"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/birch"
+    },
+    "d": {
+      "item": "mcwfurnitures:cabinet_drawer"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:birch_double_drawer",
+    "count": 4
+  }
+}

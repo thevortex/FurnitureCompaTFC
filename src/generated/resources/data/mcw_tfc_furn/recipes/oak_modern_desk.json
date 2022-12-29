@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "fsf"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/oak"
+    },
+    "f": {
+      "item": "tfc:wood/planks/oak_fence"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:oak_modern_desk",
+    "count": 2
+  }
+}

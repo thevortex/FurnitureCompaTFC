@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "mcw_tfc_furn:stripped_willow_table"
+    },
+    "l": {
+      "item": "tfc:wood/stripped_log/willow"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_willow_end_table",
+    "count": 2
+  }
+}

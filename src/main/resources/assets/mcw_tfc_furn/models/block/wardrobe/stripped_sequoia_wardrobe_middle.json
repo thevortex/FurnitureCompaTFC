@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/wardrobe_middle",
+	"textures": {
+		"3": "tfc:block/wood/stripped_log/sequoia",
+		"particle": "tfc:block/wood/stripped_log/sequoia"
+	}
+}

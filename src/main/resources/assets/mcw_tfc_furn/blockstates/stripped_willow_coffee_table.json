@@ -1,0 +1,83 @@
+{
+  "multipart": [
+  
+  
+    {
+      "when": { "AND": [  {"north": "false","east": "false","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true}
+    },
+
+
+  
+  
+  	{
+      "when": { "AND": [  {"north": "true","east": "false","west": "false","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_willow_desk","uvlock": true, "y": 90}
+    },
+	{
+      "when": { "AND": [  {"north": "false","east": "true","west": "true","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_willow_desk","uvlock": true}
+    },
+  
+  	{
+      "when": { "AND": [  {"north": "true","east": "true","west": "true","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_willow_desk","uvlock": true}
+    },
+
+  
+  
+    {
+      "when": { "AND": [  {"north": "true","east": "true","west": "true","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_willow_desk","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"north": "true","east": "true","west": "false","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_willow_desk","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"north": "false","east": "true","west": "true","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_willow_desk","uvlock": true}
+    },
+	{
+      "when": { "AND": [  {"north": "true","east": "false","west": "true","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/desk/stripped_willow_desk","uvlock": true}
+    },
+  
+  
+  
+    {
+      "when": { "AND": [  {"north": "true","east": "false","west": "true","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true, "y": 90}
+    },
+	{
+      "when": { "AND": [  {"north": "true","east": "true","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true, "y": 180}
+    },
+	{
+      "when": { "AND": [  {"north": "false","east": "true","west": "false","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true, "y": 270}
+    },
+	{
+      "when": { "AND": [  {"north": "false","east": "false","west": "true","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true, "y": 0}
+    },
+  
+  
+	{
+      "when": { "AND": [  {"north": "true","east": "false","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true, "y": 90}
+    },
+	{
+      "when": { "AND": [  {"north": "false","east": "true","west": "false","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true, "y": 180}
+    },
+	{
+      "when": { "AND": [  {"north": "false","east": "false","west": "false","south": "true"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true, "y": 270}
+    },
+	{
+      "when": { "AND": [  {"north": "false","east": "false","west": "true","south": "false"} ]},
+      "apply": { "model": "mcw_tfc_furn:block/table/stripped_willow_coffee_table","uvlock": true}
+    }
+  ]
+}

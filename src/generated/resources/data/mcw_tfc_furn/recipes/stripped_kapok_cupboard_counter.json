@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcw_tfc_furn:stripped_kapok_wardrobe"
+    },
+    "s": {
+      "item": "tfc:wood/planks/kapok_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_kapok_cupboard_counter"
+  }
+}

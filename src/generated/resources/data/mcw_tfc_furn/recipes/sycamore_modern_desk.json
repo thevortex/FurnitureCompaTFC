@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "fsf"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/sycamore"
+    },
+    "f": {
+      "item": "tfc:wood/planks/sycamore_fence"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:sycamore_modern_desk",
+    "count": 2
+  }
+}

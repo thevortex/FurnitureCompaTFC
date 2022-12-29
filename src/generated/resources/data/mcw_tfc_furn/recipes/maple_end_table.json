@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "mcw_tfc_furn:maple_table"
+    },
+    "l": {
+      "item": "tfc:wood/log/maple"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:maple_end_table",
+    "count": 2
+  }
+}

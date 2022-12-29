@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "dld",
+    "ldl"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/white_cedar"
+    },
+    "d": {
+      "item": "mcwfurnitures:cabinet_drawer"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_white_cedar_lower_triple_drawer",
+    "count": 4
+  }
+}

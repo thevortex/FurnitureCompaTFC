@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/covered_desk_single",
+	"textures": {
+		"2": "tfc:block/wood/stripped_log/white_cedar",
+		"particle": "tfc:block/wood/stripped_log/white_cedar"
+	}
+}

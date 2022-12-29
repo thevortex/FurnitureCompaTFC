@@ -1,0 +1,8 @@
+{
+	"parent": "mcwfurnitures:block/parent/bookshelf_cupboard_bottom",
+	"textures": {
+		"3": "minecraft:block/bookshelf",
+		"4": "tfc:block/wood/stripped_log/willow",
+		"particle": "tfc:block/wood/stripped_log/willow"
+	}
+}

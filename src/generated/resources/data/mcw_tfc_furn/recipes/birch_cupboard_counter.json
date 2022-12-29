@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcwfurnitures:birch_wardrobe"
+    },
+    "s": {
+      "item": "tfc:wood/planks/birch_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:birch_cupboard_counter"
+  }
+}

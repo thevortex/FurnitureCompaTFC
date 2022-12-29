@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    "sl ",
+    "ff "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/sycamore"
+    },
+    "f": {
+      "item": "tfc:wood/planks/sycamore_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/sycamore_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_sycamore_chair"
+  }
+}

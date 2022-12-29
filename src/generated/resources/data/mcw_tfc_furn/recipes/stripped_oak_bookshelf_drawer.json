@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "ldl",
+    "lbl"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/oak"
+    },
+    "d": {
+      "item": "mcwfurnitures:cabinet_drawer"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_oak_bookshelf_drawer",
+    "count": 4
+  }
+}

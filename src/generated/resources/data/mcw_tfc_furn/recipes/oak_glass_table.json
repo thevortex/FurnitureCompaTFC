@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " e ",
+    " g ",
+    "   "
+  ],
+  "key": {
+    "e": {
+      "item": "mcwfurnitures:oak_table"
+    },
+    "g": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:oak_glass_table"
+  }
+}

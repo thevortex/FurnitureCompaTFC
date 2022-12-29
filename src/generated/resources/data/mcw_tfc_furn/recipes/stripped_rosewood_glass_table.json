@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " e ",
+    " g ",
+    "   "
+  ],
+  "key": {
+    "e": {
+      "item": "mcw_tfc_furn:stripped_rosewood_end_table"
+    },
+    "g": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_rosewood_glass_table"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "dld",
+    "ldl"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/spruce"
+    },
+    "d": {
+      "item": "mcwfurnitures:cabinet_drawer"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:spruce_lower_triple_drawer",
+    "count": 4
+  }
+}

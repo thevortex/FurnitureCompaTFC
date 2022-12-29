@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    "sl ",
+    "ff "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/palm"
+    },
+    "f": {
+      "item": "tfc:wood/planks/palm_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/palm_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:palm_chair"
+  }
+}

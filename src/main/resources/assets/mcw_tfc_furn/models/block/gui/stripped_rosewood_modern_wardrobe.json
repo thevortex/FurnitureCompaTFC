@@ -1,0 +1,9 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/modern_wardrobe",
+	"textures": {
+		"1": "tfc:block/wood/stripped_log/rosewood",
+		"4": "tfc:block/wood/log/rosewood",
+		"particle": "tfc:block/wood/stripped_log/rosewood",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

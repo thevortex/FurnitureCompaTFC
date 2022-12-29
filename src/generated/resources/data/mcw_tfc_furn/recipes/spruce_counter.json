@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/spruce"
+    },
+    "s": {
+      "item": "tfc:wood/planks/spruce_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:spruce_counter"
+  }
+}

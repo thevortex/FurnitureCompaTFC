@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " e ",
+    " g ",
+    "   "
+  ],
+  "key": {
+    "e": {
+      "item": "mcwfurnitures:acacia_table"
+    },
+    "g": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_acacia_glass_table"
+  }
+}

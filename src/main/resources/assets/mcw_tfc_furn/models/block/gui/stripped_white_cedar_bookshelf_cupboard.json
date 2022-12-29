@@ -1,0 +1,10 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/bookshelf_cupboard",
+	"textures": {
+		"1": "tfc:block/wood/stripped_log/white_cedar",
+		"3": "minecraft:block/bookshelf",
+		"4": "tfc:block/wood/log/white_cedar",
+		"particle": "minecraft:block/iron_block",
+		"2_1": "minecraft:block/iron_block"
+	}
+}

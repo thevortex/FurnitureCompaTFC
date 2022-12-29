@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    " l ",
+    " f "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/aspen"
+    },
+    "f": {
+      "item": "tfc:wood/planks/aspen_fence"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:aspen_stool_chair"
+  }
+}

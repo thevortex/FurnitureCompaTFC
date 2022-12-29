@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "fsf"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/acacia"
+    },
+    "f": {
+      "item": "tfc:wood/planks/acacia_fence"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:acacia_modern_desk",
+    "count": 2
+  }
+}

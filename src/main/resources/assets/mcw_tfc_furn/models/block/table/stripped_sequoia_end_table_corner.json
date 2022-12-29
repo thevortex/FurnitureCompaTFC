@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/end_table_corner",
+	"textures": {
+		"1": "tfc:block/wood/stripped_log/sequoia",
+		"particle": "tfc:block/wood/stripped_log/sequoia"
+	}
+}

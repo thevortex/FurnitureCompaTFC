@@ -1,0 +1,6 @@
+{
+	"parent": "mcwfurnitures:block/parent/double_door_bottom",
+	"textures": {
+		"4": "tfc:block/wood/log/kapok"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/wardrobe_base",
+	"textures": {
+		"1": "tfc:block/wood/stripped_log/aspen",
+		"particle": "tfc:block/wood/stripped_log/aspen"
+	}
+}

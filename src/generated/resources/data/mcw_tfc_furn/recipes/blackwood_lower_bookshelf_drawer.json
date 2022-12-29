@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "lbl",
+    "ldl"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/blackwood"
+    },
+    "d": {
+      "item": "mcwfurnitures:cabinet_drawer"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:blackwood_lower_bookshelf_drawer",
+    "count": 4
+  }
+}

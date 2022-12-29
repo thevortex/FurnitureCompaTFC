@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sl ",
+    "ff ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/birch"
+    },
+    "f": {
+      "item": "tfc:wood/planks/birch_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/birch_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:birch_modern_chair"
+  }
+}

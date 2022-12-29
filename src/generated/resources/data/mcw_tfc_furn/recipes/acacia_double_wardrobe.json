@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "olo",
+    "lll"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/acacia"
+    },
+    "o": {
+      "item": "mcwfurnitures:cabinet_door"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:acacia_double_wardrobe",
+    "count": 4
+  }
+}

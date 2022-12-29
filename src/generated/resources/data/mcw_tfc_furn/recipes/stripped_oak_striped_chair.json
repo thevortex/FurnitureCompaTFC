@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    "sf ",
+    "ff "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/oak"
+    },
+    "f": {
+      "item": "tfc:wood/planks/oak_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/oak_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_oak_striped_chair"
+  }
+}

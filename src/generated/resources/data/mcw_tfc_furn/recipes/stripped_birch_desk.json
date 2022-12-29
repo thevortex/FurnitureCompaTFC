@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "f f"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/birch"
+    },
+    "f": {
+      "item": "tfc:wood/planks/birch_fence"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_birch_desk",
+    "count": 2
+  }
+}

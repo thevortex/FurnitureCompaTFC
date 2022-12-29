@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "l l"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/sequoia"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_sequoia_covered_desk",
+    "count": 2
+  }
+}

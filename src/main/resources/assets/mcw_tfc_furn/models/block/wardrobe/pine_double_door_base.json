@@ -1,0 +1,8 @@
+{
+	"parent": "mcwfurnitures:block/parent/double_door_base",
+	"textures": {
+		"4": "tfc:block/wood/stripped_log/pine",
+		"particle": "tfc:block/wood/log/pine",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

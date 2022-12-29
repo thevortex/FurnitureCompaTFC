@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/striped_chair",
+	"textures": {
+		"0": "tfc:block/wood/log/palm",
+		"3": "tfc:block/wood/stripped_log/palm"
+	}
+}

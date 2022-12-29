@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "f f"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/aspen"
+    },
+    "f": {
+      "item": "tfc:wood/planks/aspen_fence"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_aspen_desk",
+    "count": 2
+  }
+}

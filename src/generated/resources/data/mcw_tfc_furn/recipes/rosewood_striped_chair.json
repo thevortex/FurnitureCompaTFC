@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " l ",
+    "sf ",
+    "ff "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/rosewood"
+    },
+    "f": {
+      "item": "tfc:wood/planks/rosewood_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/rosewood_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:rosewood_striped_chair"
+  }
+}

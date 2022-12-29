@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "olo",
+    "lll"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/blackwood"
+    },
+    "o": {
+      "item": "mcwfurnitures:cabinet_door"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_blackwood_double_wardrobe",
+    "count": 4
+  }
+}

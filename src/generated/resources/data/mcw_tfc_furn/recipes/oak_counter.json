@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/oak"
+    },
+    "s": {
+      "item": "tfc:wood/planks/oak_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:oak_counter"
+  }
+}

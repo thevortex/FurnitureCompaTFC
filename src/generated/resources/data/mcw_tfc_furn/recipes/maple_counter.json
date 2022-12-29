@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " l ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/maple"
+    },
+    "s": {
+      "item": "tfc:wood/planks/maple_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:maple_counter"
+  }
+}

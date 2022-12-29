@@ -1,0 +1,10 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/lower_bookshelf_drawer",
+	"textures": {
+		"0": "tfc:block/wood/log/aspen",
+		"1": "tfc:block/wood/stripped_log/aspen",
+		"3": "minecraft:block/bookshelf",
+		"particle": "tfc:block/wood/stripped_log/aspen",
+		"1_2": "minecraft:block/iron_block"
+	}
+}

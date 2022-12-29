@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "f f"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/blackwood"
+    },
+    "f": {
+      "item": "tfc:wood/planks/blackwood_fence"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:blackwood_desk",
+    "count": 2
+  }
+}

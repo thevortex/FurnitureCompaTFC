@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "fsf"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/spruce"
+    },
+    "f": {
+      "item": "tfc:wood/planks/spruce_fence"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:spruce_modern_desk",
+    "count": 2
+  }
+}

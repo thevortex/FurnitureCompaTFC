@@ -1,0 +1,7 @@
+{
+	"parent": "mcwfurnitures:block/parent/modern_door_middle",
+	"textures": {
+		"2": "tfc:block/wood/log/pine",
+		"particle": "tfc:block/wood/log/pine"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " f ",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "mcwfurnitures:oak_coffee_table"
+    },
+    "f": {
+      "item": "tfc:wood/planks/oak_fence"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_oak_table",
+    "count": 2
+  }
+}

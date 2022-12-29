@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "ldl",
+    "lbl"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/sycamore"
+    },
+    "d": {
+      "item": "mcwfurnitures:cabinet_drawer"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:sycamore_bookshelf_drawer",
+    "count": 4
+  }
+}

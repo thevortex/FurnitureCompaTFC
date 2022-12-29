@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcwfurnitures:oak_wardrobe"
+    },
+    "s": {
+      "item": "tfc:wood/planks/oak_slab"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_oak_cupboard_counter"
+  }
+}

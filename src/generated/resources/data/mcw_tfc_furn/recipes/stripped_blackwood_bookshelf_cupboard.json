@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "olb",
+    "lll"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/blackwood"
+    },
+    "b": {
+      "item": "minecraft:book"
+    },
+    "o": {
+      "item": "mcwfurnitures:cabinet_door"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_blackwood_bookshelf_cupboard",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcw_tfc_furn:stripped_ash_wardrobe"
+    },
+    "s": {
+      "item": "tfc:wood/planks/ash_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_ash_cupboard_counter"
+  }
+}

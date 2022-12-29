@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "fsf"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/ash"
+    },
+    "f": {
+      "item": "tfc:wood/planks/ash_fence"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:ash_modern_desk",
+    "count": 2
+  }
+}

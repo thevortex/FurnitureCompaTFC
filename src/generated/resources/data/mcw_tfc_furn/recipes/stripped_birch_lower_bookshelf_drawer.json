@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "lbl",
+    "ldl"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/stripped_log/birch"
+    },
+    "d": {
+      "item": "mcwfurnitures:cabinet_drawer"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:stripped_birch_lower_bookshelf_drawer",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " d ",
+    "   "
+  ],
+  "key": {
+    "d": {
+      "item": "mcw_tfc_furn:stripped_sequoia_drawer"
+    },
+    "s": {
+      "item": "tfc:wood/planks/sequoia_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:stripped_sequoia_drawer_counter"
+  }
+}

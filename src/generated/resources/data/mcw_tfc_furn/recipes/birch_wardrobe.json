@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "lol",
+    "lll"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/birch"
+    },
+    "o": {
+      "item": "mcwfurnitures:cabinet_door"
+    }
+  },
+  "result": {
+    "item": "mcwfurnitures:birch_wardrobe",
+    "count": 4
+  }
+}

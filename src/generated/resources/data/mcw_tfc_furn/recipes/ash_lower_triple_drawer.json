@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lll",
+    "dld",
+    "ldl"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/ash"
+    },
+    "d": {
+      "item": "mcwfurnitures:cabinet_drawer"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:ash_lower_triple_drawer",
+    "count": 4
+  }
+}

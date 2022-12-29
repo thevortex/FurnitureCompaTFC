@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "lll",
+    "l l"
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/ash"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:ash_covered_desk",
+    "count": 2
+  }
+}

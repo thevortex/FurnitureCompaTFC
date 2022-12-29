@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sl ",
+    "ff ",
+    "   "
+  ],
+  "key": {
+    "l": {
+      "item": "tfc:wood/log/maple"
+    },
+    "f": {
+      "item": "tfc:wood/planks/maple_fence"
+    },
+    "s": {
+      "item": "tfc:wood/planks/maple_slab"
+    }
+  },
+  "result": {
+    "item": "mcw_tfc_furn:maple_modern_chair"
+  }
+}

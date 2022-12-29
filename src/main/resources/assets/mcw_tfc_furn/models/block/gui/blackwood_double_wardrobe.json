@@ -1,0 +1,8 @@
+{
+	"parent": "mcwfurnitures:block/gui/parent/double_wardrobe",
+	"textures": {
+		"1": "tfc:block/wood/log/blackwood",
+		"4": "tfc:block/wood/stripped_log/blackwood",
+		"2_1": "minecraft:block/iron_block"
+	}
+}
