@@ -19,6 +19,10 @@ apply plugin: 'net.minecraftforge.gradle'
 
 apply plugin: 'org.spongepowered.mixin'
 
+
+mixin {
+    add sourceSets.main, "mcw_tfc_furn.refmap.json"
+}
 version = "${verx}-${forge}"
 group = 'com.thevortex.furniturecompatfc' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mcw_tfc_furn'
@@ -57,7 +61,7 @@ minecraft {
             // "REGISTRIES": For firing of registry events.
             // "REGISTRYDUMP": For getting the contents of all registries.
             property 'forge.logging.markers', 'REGISTRIES'
-
+            arg "-mixin.config=mcw_tfc_furn.mixins.json"
             // Recommended logging level for the console
             // You can set various levels here.
             // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
@@ -75,7 +79,7 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-
+            arg "-mixin.config=mcw_tfc_furn.mixins.json"
             property 'forge.logging.markers', 'REGISTRIES'
 
             property 'forge.logging.console.level', 'debug'
@@ -96,6 +100,7 @@ minecraft {
         gameTestServer {
             workingDirectory project.file('run')
 
+            arg "-mixin.config=mcw_tfc_furn.mixins.json"
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
             // "SCAN": For mods scan.
@@ -161,7 +166,7 @@ dependencies {
 
 
     implementation fg.deobf("curse.maven:macaws-furniture-359540:4018178")
-    implementation fg.deobf("curse.maven:tfc-302973:4127715")
+    implementation fg.deobf("curse.maven:tfc-302973:4262563")
     implementation fg.deobf("curse.maven:curios-309927:3841948")
     implementation fg.deobf("curse.maven:patchouli-306770:3846086")
 }
@@ -176,7 +181,9 @@ jar {
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "thevortex",
-                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                "MixinConfigs": "mcw_tfc_furn.mixins.json",
+                "MixinConnector":"com.thevortex.furniturecompatfc.mixin.MixinConnector"
         ])
     }
 }

@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "package": "com.thevortex.furniturecompatfc.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mcw_tfc_furn.refmap.json",
+  "mixins": [
+    "ContainerControl"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.5"
+}

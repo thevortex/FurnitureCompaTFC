@@ -39,9 +39,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("lol")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('o', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_door")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer,recipeDir("stripped_" +log + "_wardrobe"));
 
         }
@@ -51,9 +51,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("lol")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('o', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_door")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -65,9 +65,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("llo")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('o', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_door")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_modern_wardrobe"));
 
         }
@@ -77,9 +77,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("llo")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('o', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_door")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -91,9 +91,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("olo")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('o', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_door")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_double_wardrobe"));
 
         }
@@ -103,9 +103,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("olo")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('o', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_door")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -117,9 +117,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("bbb")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('b', ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:book")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_bookshelf"));
 
         }
@@ -129,9 +129,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("bbb")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('b', ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:book")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -143,10 +143,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("olb")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('b', ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:book")))
                     .define('o', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_door")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_bookshelf_cupboard"));
 
         }
@@ -156,10 +156,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("olb")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('b', ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:book")))
                     .define('o', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_door")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -170,9 +170,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("ldl")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_drawer"));
 
         }
@@ -182,9 +182,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("ldl")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -195,9 +195,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("ldl")
                     .pattern("ldl")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_double_drawer"));
 
         }
@@ -207,9 +207,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("ldl")
                     .pattern("ldl")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -221,10 +221,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("ldl")
                     .pattern("lbl")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
                     .define('b', ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:book")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_bookshelf_drawer"));
 
         }
@@ -234,10 +234,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("ldl")
                     .pattern("lbl")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
                     .define('b', ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:book")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -250,10 +250,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("lbl")
                     .pattern("ldl")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
                     .define('b', ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:book")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_lower_bookshelf_drawer"));
 
         }
@@ -263,10 +263,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("lbl")
                     .pattern("ldl")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
                     .define('b', ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:book")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -278,9 +278,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("ldl")
                     .pattern("lll")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_large_drawer"));
 
         }
@@ -290,9 +290,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("ldl")
                     .pattern("lll")
                     .pattern("lll")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -304,9 +304,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("dld")
                     .pattern("ldl")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_lower_triple_drawer"));
 
         }
@@ -316,9 +316,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("dld")
                     .pattern("ldl")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -330,9 +330,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("ldl")
                     .pattern("dld")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_triple_drawer"));
 
         }
@@ -342,9 +342,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("lll")
                     .pattern("ldl")
                     .pattern("dld")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('d', ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:cabinet_drawer")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -356,9 +356,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .pattern("lll")
                     .pattern("f f")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_desk"));
 
         }
@@ -368,9 +368,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .pattern("lll")
                     .pattern("f f")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -381,8 +381,8 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .pattern("lll")
                     .pattern("l l")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_covered_desk"));
 
         }
@@ -392,8 +392,8 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .pattern("lll")
                     .pattern("l l")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -405,10 +405,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .pattern("lll")
                     .pattern("fsf")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
                     .define('s', Tags.Items.RODS_WOODEN)
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_modern_desk"));
 
         }
@@ -418,10 +418,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .pattern("lll")
                     .pattern("fsf")
-                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l',ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
                     .define('s', Tags.Items.RODS_WOODEN)
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -435,7 +435,7 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .define('c',ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:" + log + "_coffee_table")))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_table"));
 
         }
@@ -447,7 +447,7 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .define('c',ForgeRegistries.ITEMS.getValue(new ResourceLocation(FurnitureCompaTFC.MODID + ":stripped_" + log + "_coffee_table")))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -460,8 +460,8 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern("   ")
                     .define('c',ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:" + log + "_table")))
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_end_table"));
 
         }
@@ -472,8 +472,8 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern("   ")
                     .define('c',ForgeRegistries.ITEMS.getValue(new ResourceLocation(FurnitureCompaTFC.MODID + ":stripped_" + log + "_table")))
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -485,9 +485,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern(" f ")
                     .pattern("   ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_coffee_table"));
 
         }
@@ -497,9 +497,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern(" f ")
                     .pattern("   ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -513,7 +513,7 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .define('e',ForgeRegistries.ITEMS.getValue(new ResourceLocation("mcwfurnitures:" + log + "_table")))
                     .define('g', Tags.Items.GLASS)
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_glass_table"));
 
         }
@@ -525,7 +525,7 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("   ")
                     .define('e',ForgeRegistries.ITEMS.getValue(new ResourceLocation(FurnitureCompaTFC.MODID + ":stripped_" + log + "_end_table")))
                     .define('g', Tags.Items.GLASS)
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -537,10 +537,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern("sl ")
                     .pattern("ff ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
                     .define('s', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_slab")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer,recipeDir("stripped_" +log + "_chair"));
 
         }
@@ -550,10 +550,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern("sl ")
                     .pattern("ff ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
                     .define('s', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_slab")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -566,10 +566,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("sl ")
                     .pattern("ff ")
                     .pattern("   ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
                     .define('s', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_slab")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_modern_chair"));
 
         }
@@ -579,10 +579,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern("sl ")
                     .pattern("ff ")
                     .pattern("   ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
                     .define('s', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_slab")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -594,10 +594,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern("sf ")
                     .pattern("ff ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
                     .define('s', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_slab")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_striped_chair"));
 
         }
@@ -607,10 +607,10 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern("sf ")
                     .pattern("ff ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
                     .define('s', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_slab")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -622,9 +622,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern(" l ")
                     .pattern(" f ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_stool_chair"));
 
         }
@@ -634,9 +634,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" l ")
                     .pattern(" l ")
                     .pattern(" f ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('f', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_fence")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
@@ -648,9 +648,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" s ")
                     .pattern(" l ")
                     .pattern("   ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('s', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_slab")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer, recipeDir("stripped_" +log + "_counter"));
 
         }
@@ -660,9 +660,9 @@ public class StrippedCraftingRecipes extends RecipeProvider {
                     .pattern(" s ")
                     .pattern(" l ")
                     .pattern("   ")
-                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log)))
+                    .define('l', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log)))
                     .define('s', ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/planks/" + log + "_slab")))
-                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/stripped_log/" + log))))
+                    .unlockedBy(hasCondition + log + "_log", has(ForgeRegistries.ITEMS.getValue(new ResourceLocation("tfc:wood/lumber/" + log))))
                     .save(consumer);
 
         }
